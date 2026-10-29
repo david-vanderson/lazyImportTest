@@ -1,0 +1,20 @@
+.{
+    .name = .lazy_import_test,
+    .version = "0.0.0",
+    .fingerprint = 0x9c1f70be729df2ee,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .dvui = .{
+            .url = "git+https://github.com/david-vanderson/dvui?ref=main#a41e502fb0b4566aa68e06ee9bd08acfd84848b7",
+            .hash = "dvui-0.6.0-dev-AQFJmVSWBAEH8lquXh3NDdgXAxXIu7APkK7nnal4ymyX",
+        },
+        .wio = .{
+            .url = "git+https://github.com/ypsvlq/wio.git#696e61fe8660e44c25260f59b011455903528c34",
+            .hash = "wio-0.0.0-8xHrrzwbCAAalZblAgiMfH57mabsr9z7BMx-mYnUH5vL",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
